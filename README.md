@@ -1,8 +1,8 @@
-# CapstoneProject_Bookstore
+# CapstoneProject_Bookstore :star:
 
-**UpSchool Android Development Bootcamp, Capstone Project
+UpSchool Android Development Bootcamp, Capstone Project
 
-**This is an e-commerce app that helps people order books.
+This is an e-commerce app that helps people order books.
 
 # CapstoneProject_Bookstore
 
