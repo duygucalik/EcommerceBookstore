@@ -4,8 +4,6 @@ UpSchool Android Development Bootcamp, Capstone Project
 
 This is an e-commerce app that helps people order books.
 
-# CapstoneProject_Bookstore
-
 #### Screens
 - [x] Splash  Signup  Signin
 - [x] Home  Search  Cart  Favorites
