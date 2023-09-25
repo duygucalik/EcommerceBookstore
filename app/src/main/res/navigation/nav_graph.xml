@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signinFragment">
+
+    <fragment
+        android:id="@+id/signinFragment"
+        android:name="com.example.ecommercebookstore.ui.login.signIn.SigninFragment"
+        android:label="SigninFragment"
+        tools:layout="@layout/fragment_signin">
+        <action
+            android:id="@+id/SigninToSignup"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/SigninToHome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.ecommercebookstore.ui.login.signUp.SignUpFragment"
+        android:label="SignUpFragment" >
+        <action
+            android:id="@+id/SignupToSignin"
+            app:destination="@id/signinFragment" />
+        <action
+            android:id="@+id/SignupToHome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ecommercebookstore.ui.homepage.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/homeToSignin"
+            app:destination="@id/signinFragment" />
+        <action
+            android:id="@+id/homeToDetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.ecommercebookstore.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.ecommercebookstore.ui.cart.CartFragment"
+        android:label="CartFragment" >
+        <action
+            android:id="@+id/cartTodetail"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/cartTopayment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.ecommercebookstore.ui.payment.PaymentFragment"
+        android:label="PaymentFragment" >
+        <action
+            android:id="@+id/paymentTosuccess"
+            app:destination="@id/successFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successFragment"
+        android:name="com.example.ecommercebookstore.ui.success.SuccessFragment"
+        android:label="SuccessFragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.ecommercebookstore.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/searchTodetail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.ecommercebookstore.ui.favorite.FavoritesFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

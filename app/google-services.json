@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44619752315",
+    "project_id": "ecommercebookstore-afcac",
+    "storage_bucket": "ecommercebookstore-afcac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44619752315:android:23fd851c9ead73d6f013de",
+        "android_client_info": {
+          "package_name": "com.example.ecommercebookstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWP-Zp7tagPG8lc0LtmPVBO6_ClnDtotU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
