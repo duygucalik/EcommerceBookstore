@@ -25,10 +25,10 @@ class CartAdapter(
 
             tvCartTitle.text = product.title
             ivCart.loadImage(product.imageOne)
-            tvCartPrice.text = "$ ${product.price}"
+            tvCartPrice.text = " ${product.price} ₺"
 
             if (product.saleState==true) {
-                tvCartSale.text = "$ ${product.salePrice}"
+                tvCartSale.text = " ${product.salePrice} ₺"
                 tvCartPrice.setTextColor(Color.parseColor("#FF0000"))
                 tvCartPrice.setBackgroundResource(R.drawable.strike_through)
             }

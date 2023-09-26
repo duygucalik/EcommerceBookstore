@@ -10,15 +10,16 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.ecommercebookstore.data.model.ProductUI
 import com.example.ecommercebookstore.databinding.FragmentSearchBinding
+import com.example.ecommercebookstore.ui.favorite.FavoritesAdapter
 import com.example.ecommercebookstore.ui.homepage.ProductsAdapter
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class SearchFragment : Fragment(), ProductsAdapter.ProductListener {
+class SearchFragment : Fragment(), FavoritesAdapter.FavoriteProductListener {
 
     private lateinit var binding : FragmentSearchBinding
-    private val productAdapter by lazy { ProductsAdapter(this) }
+    private val productAdapter by lazy { FavoritesAdapter(this) }
     private val viewModel by viewModels<SearchViewModel>()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -54,18 +55,18 @@ class SearchFragment : Fragment(), ProductsAdapter.ProductListener {
                     productAdapter.submitList(state.products)
                 }
                 is SearchState.Error -> {
-                    Snackbar.make(requireView(), "There is no such a movie!", 1000).show()
+                    Snackbar.make(requireView(), "There is no such a book!", 1000).show()
                 }
             }
         }
     }
 
-    override fun onProductClick(id: Int) {
+   /* override fun onProductClick(id: Int) {
         val action = SearchFragmentDirections.searchTodetail(id)
         findNavController().navigate(action)
-    }
+    }*/
 
-    override fun onFavoriteButtonClick(product: ProductUI) {
-        viewModel.addToFavorites(product)
+    override fun onFavButtonClick(product: ProductUI) {
+         viewModel.addToFavorites(product)
     }
 }

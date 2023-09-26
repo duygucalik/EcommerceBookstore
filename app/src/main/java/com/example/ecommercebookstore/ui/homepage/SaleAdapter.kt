@@ -18,8 +18,8 @@ class SaleAdapter(
         private val productListener: ProductListener) : RecyclerView.ViewHolder(binding.root) {
         fun bind(product: ProductUI) = with(binding) {
             tvName.text = product.title
-            tvPrice.text = "$ ${product.price}"
-            tvSalePrice.text = "\$ ${product.salePrice}"
+            tvPrice.text = " ${product.price} ₺"
+            tvSalePrice.text = " ${product.salePrice} ₺"
 
             var isLiked = product.isFavorite
 

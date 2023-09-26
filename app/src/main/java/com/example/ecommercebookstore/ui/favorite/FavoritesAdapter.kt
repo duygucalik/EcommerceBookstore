@@ -21,7 +21,7 @@ class FavoritesAdapter(
 
         fun bind(product: ProductUI) = with(binding) {
             tvCartTitle.text = product.title
-            tvCartPrice.text = "$ ${product.price}"
+            tvCartPrice.text = " ${product.price} ₺"
             ivCart.loadImage(product.imageOne)
             btnFavorite.playAnimation()
 

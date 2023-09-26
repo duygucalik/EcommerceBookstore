@@ -29,7 +29,7 @@ class ProductsAdapter(
         private val productListener: ProductListener) : RecyclerView.ViewHolder(binding.root) {
         fun bind(product: ProductUI) = with(binding) {
             tvName.text = product.title
-            tvPrice.text = "$ ${product.price}"
+            tvPrice.text = "${product.price} ₺"
             ivProduct.loadImage(product.imageOne)
 
             var isLiked = product.isFavorite
@@ -53,7 +53,7 @@ class ProductsAdapter(
 
 
             if (product.saleState) {
-                tvSalePrice.text = "$ ${product.salePrice}"
+                tvSalePrice.text = " ${product.salePrice} ₺"
                 tvPrice.setTextColor(Color.parseColor("#FF0000"))
                 tvPrice.setBackgroundResource(R.drawable.strike_through)
             }

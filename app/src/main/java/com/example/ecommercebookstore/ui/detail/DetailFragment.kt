@@ -59,7 +59,7 @@ class DetailFragment : Fragment() {
                 is DetailState.Data -> {
                     ivDetail.loadImage(state.product.imageOne)
                     tvDetailTitle.text = state.product.title
-                    tvDetailPrice.text = "$ ${state.product.price}"
+                    tvDetailPrice.text = " ${state.product.price} ₺"
                     tvDetailCategories.text = state.product.category
                     tvDetailDesc.text = state.product.description
                     ratingBar.rating = ((state.product.rate)?.toFloat() ?: 1) as Float
