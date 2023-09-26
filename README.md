@@ -26,6 +26,4 @@ This is an e-commerce app that helps people order books.
 #### App Page
 
 ##### Login
-![splashscreen]([http://url/to/img.png](https://github.com/duygucalik/EcommerceBookstore/blob/main/Splasscreen.png)https://github.com/duygucalik/EcommerceBookstore/blob/main/Splasscreen.png)
-![splashscreen](https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20in.png)
-![splashscreen](https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20up.png)
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20up.png" alt="alt text" width="320" height="180">
