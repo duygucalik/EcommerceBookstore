@@ -26,4 +26,4 @@ This is an e-commerce app that helps people order books.
 #### App Page
 
 ##### Login
-<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20up.png" alt="alt text" width="300" height="400">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20up.png" alt="alt text" width="300" height="550">
