@@ -4,12 +4,12 @@ UpSchool Android Development Bootcamp, Capstone Project
 
 This is an e-commerce app that helps people order books.
 
-#### Screens
+### Screens
 - [x] Splash  Signup  Signin
 - [x] Home  Search  Cart  Favorites
 - [x] Detail  Profile  Payment  Success
 
-#### Structure
+### Structure
 - MVVM
 - Hilt
 - Coroutines
@@ -23,7 +23,23 @@ This is an e-commerce app that helps people order books.
 - RecyclerView
 - ViewBinding
 
-#### App Page
+### App Page
 
-##### Login
+#### Login
+
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Splasscreen.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20in.png" alt="alt text" width="300" height="550">
 <img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/sign%20up.png" alt="alt text" width="300" height="550">
+
+#### Home - Detail -Favorite -Search
+
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Home.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/detail.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Favoriler.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/search.png" alt="alt text" width="300" height="550">
+
+#### Cart - Payment - Success
+
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Cart.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/detail.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Favoriler.png" alt="alt text" width="300" height="550">
