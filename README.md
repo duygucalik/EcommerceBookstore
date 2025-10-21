@@ -31,7 +31,7 @@ This is an e-commerce app that helps people order books.
 
 #### Home - Detail -Favorite -Search
 
-<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/main.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/details.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/favorite.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/search.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/main.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/details.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/favorite.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/search_.png" alt="alt text" width="300" height="550">
 
 #### Cart - Payment - Success
 
