@@ -31,8 +31,8 @@ This is an e-commerce app that helps people order books.
 
 #### Home - Detail -Favorite -Search
 
-<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Home.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/detail.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Favoriler.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/search.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/main.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/details.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/favorite.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/search.png" alt="alt text" width="300" height="550">
 
 #### Cart - Payment - Success
 
-<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/Cart.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/payment.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/success.png" alt="alt text" width="300" height="550">
+<img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/basket.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/payment.png" alt="alt text" width="300" height="550"><img src="https://github.com/duygucalik/EcommerceBookstore/blob/main/success.png" alt="alt text" width="300" height="550">
